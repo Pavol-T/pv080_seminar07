@@ -57,7 +57,7 @@ if __name__ == '__main__':
         urlib_version = raw_input("Choose version of urllib: ")
         fetch_website(urlib_version, url="https://www.google.com")
     elif choice == "3":
-        load_yaml(input("File name: "))
+        load_yaml(raw_input("File name: "))
         print("Executed -ls on current folder")
     elif choice == "4":
         password = raw_input("Enter master password: ")
